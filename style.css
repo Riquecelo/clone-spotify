@@ -1,0 +1,118 @@
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+}
+
+.sidebar_navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+.sidebar_navigation .logo img{
+    width:80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding:0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM-sans", sans-serif;
+}
+.sidebar nav ul li a .fa{
+    margin-right: 20px;
+}
+
+.biblioteca{
+    margin-top: 8px;
+    padding-top: 10px!important;
+    position: relative;
+    padding-top: 0;
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 8px  8px 0px 0px;
+}
+
+.sua_biblioteca{
+    position: absolute;
+    background-color: #1a1a1a;
+    top: 0;
+    z-index: 10;
+    height: 56px;
+    width: 100%;
+    
+    border-radius: 8px  8px 0px 0px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+.sombra{box-shadow: -3px 6px 11px 5px rgba(0,0,0,.6);}
+.sua_biblioteca a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM-sans", sans-serif;
+}
+.sua_biblioteca a .fa{
+    margin-right: 15px;
+}
+.sua_biblioteca button{
+    position: absolute;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.sua_biblioteca button span{
+    color: #b3b3b3;
+}
+.sua_biblioteca button:hover{
+    background-color: #1a1a1a;
+}
+
+.sidebar nav ul li a:hover,
+.sua_biblioteca a:hover{
+    color: #fff;
+}
+
+.playlist{
+    margin-top: 40px;
+    padding-top: 10px;
+    background-color: #1a1a1a;
+    height: 165px;
+    /* border: solid 1px white; */
+    overflow-y: scroll;
+}
+.playlist section{
+    margin-top: 10px;
+    height: 120px;
+    background-color: #242424;
+}
