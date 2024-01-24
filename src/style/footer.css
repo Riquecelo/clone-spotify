@@ -1,0 +1,33 @@
+
+footer{
+    width: 98%;
+    height: 80px;
+    background:  linear-gradient(90deg,#af2896,#509bf5);
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: #fff;
+    margin: 10px;
+    font-weight: 700;
+    font-family: "DM-sans", sans-serif;
+}
+footer button{
+    width: 250px;
+    height: 62px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: "DM-sans", sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+}
+footer button:hover{
+    width: 255px;
+    height: 63px;
+}
