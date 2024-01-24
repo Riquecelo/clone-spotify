@@ -1,15 +1,15 @@
 body{
     background-color: #000;
-    height: 100vh;
+    height: 100%;
 }
 
 .sidebar{
-    position:fixed;
+    /* position:fixed; */
     top:0;
     left:0;
     padding:12px;
     width:300px;
-    height: 500px;
+    height: 100%;
 }
 
 .sidebar_navigation{
@@ -218,11 +218,13 @@ body{
 }
 
 footer{
-    width: 98.5vw;
+    width: 98%;
     height: 80px;
     background:  linear-gradient(90deg,#af2896,#509bf5);
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
+    left: 0;
+    right: 0;
     margin: 12px;
     display: flex;
     justify-content: space-between;
