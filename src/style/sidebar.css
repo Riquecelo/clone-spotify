@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: var(--bg-1);
     height: 100%;
 }
 
@@ -13,13 +13,13 @@ body{
 }
 
 .sidebar_navigation{
-    background-color: #121212;
+    background-color: var(--bg-2);
     border-radius:8px;
     padding:16px 0 0 16px;
 }
 
 .logo{
-    background: #121212;
+    background: var(--bg-2);
     display:flex;
     border-radius:8px ;
     padding:16px 0 0 16px;
@@ -38,11 +38,11 @@ body{
 }
 
 .sidebar nav ul li a{
-    color: #b3b3b3;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    font-family: "DM-sans", sans-serif;
+    font-family:var(--font-dm-sans);
 }
 .sidebar nav ul li a .fa{
     margin-right: 20px;
@@ -54,13 +54,13 @@ body{
     position: relative;
     padding-top: 0;
     
-    background-color: #121212;
+    background-color: var(--bg-2);
     border-radius: 8px  8px 0px 0px;
 }
 
 .sua_biblioteca{
     position: absolute;
-    background-color: #121212;
+    background-color: var(--bg-2);
     top: 0;
     z-index: 10;
     height: 56px;
@@ -76,10 +76,10 @@ body{
 .sua_biblioteca a{
     margin-left: 40px;
     text-decoration: none;
-    color: #b3b3b3;
+    color: var(--text-color);
     font-weight: 600;
     font-size: 16px;
-    font-family: "DM-sans", sans-serif;
+    font-family:var(--font-dm-sans);
 }
 .sua_biblioteca a .fa{
     margin-right: 15px;
@@ -93,28 +93,28 @@ body{
     border-radius: 50%;
 }
 .sua_biblioteca button span{
-    color: #b3b3b3;
+    color: var(--text-color);
 }
 .sua_biblioteca button:hover{
-    background-color: #1a1a1a;
+    background-color: var(--bg-3);
 }
 
 .sidebar nav ul li a:hover,
 .sua_biblioteca a:hover{
-    color: #fff;
+    color: var(--text-color-2);
 }
 
 .playlist{
     margin-top: 40px;
     padding: 5px 10px 0px 10px;
-    background-color: #121212;
+    background-color: var(--bg-2);
     height: 165px;
     overflow: hidden;
 }
 .playlist section{
     margin-top: 20px;
     height: 100px;
-    background-color: #242424;
+    background-color: var(--bg-4);
     border-radius: 8px;
     padding: 16px 20px;
     display: flex;
@@ -133,18 +133,17 @@ body{
     
 } 
 .playlist::-webkit-scrollbar-thumb{
-    /* border: solid 10px #b3b3b376 ; */
-    background: #fffdfd49;
+    background: var(--bg-trans);
     
 }
 .playlist::-webkit-scrollbar-thumb:hover{
-    background-color: #b3b3b3;
+    background-color: var(--text-color);
 }
 
 .playlist .sub-titulo,
 .playlist p{
-    color: #fff;
-    font-family: "DM-sans", sans-serif;
+    color: var(--text-color-2);
+    font-family: var(--font-dm-sans);
 }
 
 .playlist .sub-titulo{
@@ -162,7 +161,7 @@ body{
     max-width: 130px;
     height: 32px;
     border-radius: 40px;
-    font-family: "DM-sans", sans-serif;
+    font-family: var(--font-dm-sans);
 }
 .playlist button:hover{
     font-size: 13.5px;
