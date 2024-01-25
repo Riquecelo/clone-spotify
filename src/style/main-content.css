@@ -1,11 +1,13 @@
 /* HEADER */
-
+main{
+  height: 100vh;
+  overflow: hidden;
+}
 .main-container{
-    max-width: 80vw;
-    height: 100vh;
+    max-width: 90vw;
+    height: 100%;
     margin-left: 320px;
-    margin-right: 56px;
-    
+    margin-right: 6px;
 }
 
 .header__navigation {
