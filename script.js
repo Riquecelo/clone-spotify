@@ -14,8 +14,16 @@ console.log('cheguei ' + lista[0].getBoundingClientRect().top)
     }
 })
 
-/* npm install -g json-server@0.17.4, depois roda o servidor de novo com json-server --watch api-artists/artists.json --port 3000 */
+/* 1)   npm uninstall -g json-server
 
+2)  npm install -g json-server@0.17.4
+
+3)   json-server --watch api-artists/artists.json port 3000
+
+*se der erro no passo 3 executa a função abaixo e depois o passo 2 novamente
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+ */
 const searchInput = document.getElementById('search-input');
 const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');

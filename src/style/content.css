@@ -7,6 +7,15 @@
     overflow: hidden;
     overflow-y: scroll;
 }
+.main-container__conteudo::-webkit-scrollbar{
+    width: 10px;
+}
+.main-container__conteudo::-webkit-scrollbar-track{
+    background: transparent;
+}
+.main-container__conteudo::-webkit-scrollbar-thumb{
+    background: var(--bg-trans);
+}
 .header-menu{
     width: 100%;
     height: 50px;
@@ -71,6 +80,7 @@
     width: 160px;
     height: 160px;
     border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5);
 }
 
 .main-container__playlist ul li .play{
