@@ -1,9 +1,11 @@
 .main-container__conteudo{
     max-width: 80vw;
-    height: 73vh;
+    height: calc(84% - 80px);
     margin: 0px 10px;
     border-radius: 8px;
     background-color: var(--bg-2);
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .header-menu{
     width: 100%;
@@ -36,7 +38,13 @@
     display: flex;
     gap: 15px;
     padding: 0px 15px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+@media screen and (max-width: 1439px) {
+    .main-container__playlist ul{
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
 }
 .main-container__playlist ul li{
     display: flex;

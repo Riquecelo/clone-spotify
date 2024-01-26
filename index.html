@@ -107,12 +107,12 @@
                     <button class="login">Entrar</button>
                 </div>
             </nav>
-            <section class="main-container__conteudo">
+            <section  class="main-container__conteudo">
                 <div class="header-menu">
                     <h2>Playlist do Spotify</h2>
                     <p>Mostrar tudo</p>
                 </div>
-                <div class="main-container__playlist">
+                <div id="result-playlists" class="main-container__playlist">
                     <ul>
                         <li>
                             <img src="src/assets/img/1.jpeg" alt="">
@@ -170,6 +170,25 @@
                             
                         </li>
                     </ul>
+                </div>
+
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                        <div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <span class="artist-name" id="artist-name"></span>
+                                <span class="artist-categorie">Artista</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
