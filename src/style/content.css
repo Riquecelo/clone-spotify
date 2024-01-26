@@ -1,6 +1,6 @@
 .main-container__conteudo{
     max-width: 80vw;
-    height: calc(84% - 80px);
+    height: 535px;
     margin: 0px 10px;
     border-radius: 8px;
     background-color: var(--bg-2);

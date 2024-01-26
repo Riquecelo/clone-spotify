@@ -4,7 +4,7 @@ const sua_bibioteca = document.querySelector('.sua_biblioteca')
 
 
 container.addEventListener('scroll', function (){
-console.log('cheguei ' + lista[0].getBoundingClientRect().top)
+//console.log('cheguei ' + lista[0].getBoundingClientRect().top)
     if(lista[0].getBoundingClientRect().top < 251){
         sua_bibioteca.classList.add('sombra')
         

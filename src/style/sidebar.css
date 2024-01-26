@@ -1,15 +1,7 @@
-body{
-    background-color: var(--bg-1);
-    height: 100%;
-}
-
 .sidebar{
-    position:fixed;
-    top:0;
-    left:0;
     padding:12px;
-    width:300px;
     height: 100%;
+    
 }
 
 .sidebar_navigation{

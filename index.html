@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/var.css">
+    <link rel="stylesheet" href="src/style/style.css">
     <link rel="stylesheet" href="src/style/sidebar.css">
     <link rel="stylesheet" href="src/style/sidebar-footer.css">
     <link rel="stylesheet" href="src/style/main-content.css">
@@ -19,187 +20,188 @@
 
 </head>
 <body>
-    <div class="sidebar">
-        <nav class="sidebar_navigation">
-            <div class="logo">
-                <a href="">
-                    <img src="src/assets/icons/logo-spotify.png" alt="">
-                </a>
-            </div>
-            <ul>
-                <li>
+        <div class="sidebar">
+            <nav class="sidebar_navigation">
+                <div class="logo">
                     <a href="">
-                        <span class="fa fa-home"></span>
-                        <span>Início</span>
+                        <img src="src/assets/icons/logo-spotify.png" alt="">
                     </a>
-                </li>
-                <li>
-                    <a href="">
-                        <span class="fa fa-search"></span>
-                        <span>Busca</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class=" biblioteca">
-            
-                <header class="sua_biblioteca">
-                    <a href="">
-                        <span class="fa fas fa-book"></span>
-                        <span>Sua Biblioteca</span>
-                    </a>
-                    <button>
-                        <span class="fa fa-plus"></span>
-                    </button>
-                </header>
-                
-                <div class="playlist" >
-                    <section>
-                        <p class="sub-titulo">Crie sua primeira playlist</p>
-                        <p>É fácil, vamos te ajudar.</p>
-                        <button>Criar playlist</button>
-                    </section>
-                    <section>
-                        <p class="sub-titulo">Que tal seguir um podcast novo?</p>
-                        <p>Avisaremos você sobre novos episódios.</p>
-                        <button>Explore podcasts</button>
-                    </section>
-                    
                 </div>
-        </div>
-        <div class="sidebar_footer">
-            <div class="sidebar_footer_links">
-                <a href="">Legal</a>
-                <a href="">Cento de Privacidade</a>
-                <a href="">Política de Privacidade</a>
-                <a href="">Cookies</a>
-                <a href="">Sobre anúncios</a>
-                <a href="">Acessibilidade</a>
-                <a href="">Notice at Collection</a>
-                <a href="">Definições de cookies</a>
-            </div>
-            <div class="sidebar_footer_rodape">
-                <a href="">Coockies</a>
-                <button>
-                    <span class="fa fa-globe"></span>
-                    <span>Português Brasil</span>
-                </button>
-            </div>
-        </div>
-    </div>
-    <main>
-        <div class="main-container">
-            <nav class="header__navigation">
-                <div class="navigation">
-                    <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
-                    </button>
-                    <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
-                    </button>
-                </div>
-                <div class="header__search">
-                    <img src="./src/assets/icons/search.png" alt="">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
-                </div>
-                <div class="header__login">
-                    <button class="subscribe">Inscreva-se</button>
-                    <button class="login">Entrar</button>
-                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Busca</span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
-            <section  class="main-container__conteudo">
-                <div class="header-menu">
-                    <h2>Playlist do Spotify</h2>
-                    <p>Mostrar tudo</p>
+            <div class=" biblioteca">
+                
+                    <header class="sua_biblioteca">
+                        <a href="">
+                            <span class="fa fas fa-book"></span>
+                            <span>Sua Biblioteca</span>
+                        </a>
+                        <button>
+                            <span class="fa fa-plus"></span>
+                        </button>
+                    </header>
+                    
+                    <div class="playlist" >
+                        <section>
+                            <p class="sub-titulo">Crie sua primeira playlist</p>
+                            <p>É fácil, vamos te ajudar.</p>
+                            <button>Criar playlist</button>
+                        </section>
+                        <section>
+                            <p class="sub-titulo">Que tal seguir um podcast novo?</p>
+                            <p>Avisaremos você sobre novos episódios.</p>
+                            <button>Explore podcasts</button>
+                        </section>
+                        
+                    </div>
+            </div>
+            <div class="sidebar_footer">
+                <div class="sidebar_footer_links">
+                    <a href="">Legal</a>
+                    <a href="">Cento de Privacidade</a>
+                    <a href="">Política de Privacidade</a>
+                    <a href="">Cookies</a>
+                    <a href="">Sobre anúncios</a>
+                    <a href="">Acessibilidade</a>
+                    <a href="">Notice at Collection</a>
+                    <a href="">Definições de cookies</a>
                 </div>
-                <div id="result-playlists" class="main-container__playlist">
-                    <ul>
-                        <li>
-                            <img src="src/assets/img/1.jpeg" alt="">
-                            <button class="play">
-                                <span class="fa fa-play"></span>
-                            </button>
-                            <div class="content-music">
-                                <h3>lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <img src="src/assets/img/2.png" alt="">
-                            <button class="play">
-                                <span class="fa fa-play"></span>
-                            </button>
-                            <div class="content-music">
-                                <h3>lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <img src="src/assets/img/3.jpeg" alt="">
-                            <button class="play">
-                                <span class="fa fa-play"></span>
-                            </button>
-                            <div class="content-music">
-                                <h3>lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <img src="src/assets/img/4.jpeg" alt="">
-                            <button class="play">
-                                <span class="fa fa-play"></span>
-                            </button>
-                            <div class="content-music">
-                                <h3>lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <img src="src/assets/img/5.jpeg" alt="">
-                            <button class="play">
-                                <span class="fa fa-play"></span>
-                            </button>
-                            <div class="content-music">
-                                <h3>lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            
-                        </li>
-                    </ul>
+                <div class="sidebar_footer_rodape">
+                    <a href="">Coockies</a>
+                    <button>
+                        <span class="fa fa-globe"></span>
+                        <span>Português Brasil</span>
+                    </button>
                 </div>
-
-                <div id="result-artist" class="hidden">
-                    <div class="grid-container">
-                        <div class="artist-card" id="">
-                            <div class="card-img">
-                                <img id="artist-img" class="artist-img" />
-                                <div class="play">
-                                    <span class="fa fa-solid fa-play"></span>
+            </div>
+        </div>
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+                <section  class="main-container__conteudo">
+                    <div class="header-menu">
+                        <h2>Playlist do Spotify</h2>
+                        <p>Mostrar tudo</p>
+                    </div>
+                    <div id="result-playlists" class="main-container__playlist">
+                        <ul>
+                            <li>
+                                <img src="src/assets/img/1.jpeg" alt="">
+                                <button class="play">
+                                    <span class="fa fa-play"></span>
+                                </button>
+                                <div class="content-music">
+                                    <h3>lorem ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                 </div>
-                            </div>
-                            <div class="card-text">
-                                <a title="Foo Fighters" class="vst" href=""></a>
-                                <span class="artist-name" id="artist-name"></span>
-                                <span class="artist-categorie">Artista</span>
-                                </a>
+                                
+                            </li>
+                            <li>
+                                <img src="src/assets/img/2.png" alt="">
+                                <button class="play">
+                                    <span class="fa fa-play"></span>
+                                </button>
+                                <div class="content-music">
+                                    <h3>lorem ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <img src="src/assets/img/3.jpeg" alt="">
+                                <button class="play">
+                                    <span class="fa fa-play"></span>
+                                </button>
+                                <div class="content-music">
+                                    <h3>lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <img src="src/assets/img/4.jpeg" alt="">
+                                <button class="play">
+                                    <span class="fa fa-play"></span>
+                                </button>
+                                <div class="content-music">
+                                    <h3>lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <img src="src/assets/img/5.jpeg" alt="">
+                                <button class="play">
+                                    <span class="fa fa-play"></span>
+                                </button>
+                                <div class="content-music">
+                                    <h3>lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div id="result-artist" class="hidden">
+                        <div class="grid-container">
+                            <div class="artist-card" id="">
+                                <div class="card-img">
+                                    <img id="artist-img" class="artist-img" />
+                                    <div class="play">
+                                        <span class="fa fa-solid fa-play"></span>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <a title="Foo Fighters" class="vst" href=""></a>
+                                    <span class="artist-name" id="artist-name"></span>
+                                    <span class="artist-categorie">Artista</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <p>Testar o Premium de graça</p>
-            <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
-        </div>
-        <button>Inscreva-se grátis</button>
-    </footer>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>Testar o Premium de graça</p>
+                <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+            </div>
+            <button>Inscreva-se grátis</button>
+        </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

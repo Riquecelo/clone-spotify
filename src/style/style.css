@@ -1,0 +1,20 @@
+body{
+    background-color: var(--bg-1);
+    
+    display: grid;
+    grid-template-areas: 
+    'lateral main'
+    'lateral main'
+    'footer footer'
+    ;
+}
+
+.sidebar{
+    grid-area: lateral;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
