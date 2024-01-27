@@ -1,14 +1,8 @@
 /* HEADER */
-main{
-  
- /*  overflow: hidden; */
-  
-}
+
 .main-container{
     
     height: 100%;
-    /* margin-left: 320px;
-    margin-right: 6px; */
 }
 
 .header__navigation {
@@ -16,7 +10,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     border-radius: 8px;
     background-color: #121212;
     padding: 12px;
