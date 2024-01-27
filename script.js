@@ -14,6 +14,19 @@ container.addEventListener('scroll', function (){
     }
 })
 
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', ()=>{
+    document.body.classList.toggle('dark-theme')
+
+    var className = document.body.className;
+    if(className == "light-theme"){
+        btn.textContent = "Dark";
+    }else{
+        btn.textContent = "Light";
+    }
+})
+
 /* 1)   npm uninstall -g json-server
 
 2)  npm install -g json-server@0.17.4

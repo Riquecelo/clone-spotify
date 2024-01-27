@@ -38,6 +38,14 @@
     font-weight: bold;
     font-size: 14px;
 }
+body:not(.dark-theme){
+    .sidebar_footer_rodape button{
+        border-color: var(--accent-2);
+    }
+    .sidebar_footer_rodape button span{
+        color: var(--accent-2);
+    }
+}
 .sidebar_footer_rodape button:hover{
     width: 175px;
     height: 33px;

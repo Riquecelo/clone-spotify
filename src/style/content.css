@@ -36,6 +36,11 @@
     font-size: 14px;
     margin-right: 20px;
 }
+body:not(.dark-theme){
+    .header-menu p{
+        color: var(--accent-1);
+    }
+}
 
 .header-menu h2:hover,
 .header-menu p:hover{

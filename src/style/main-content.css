@@ -12,7 +12,7 @@
     padding: 16px;
     margin: 10px 10px 10px 0;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--bg-2);
     padding: 12px;
   }
   
@@ -39,7 +39,13 @@
     border: none;
     cursor: pointer;
   }
-  
+  body:not(.dark-theme){
+    .arrow-left,
+  .arrow-right {
+    background-color: var(--bg-4)
+  }
+  }
+
   .header__login {
     display: flex;
     align-items: center;
@@ -51,7 +57,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: var(--bg-4);
     border-radius: 500px;
     border: 1px solid transparent;
   }
@@ -66,7 +72,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: var(--text-color-2);
     text-overflow: ellipsis;
     overflow:hidden;
     white-space: nowrap;
@@ -74,7 +80,7 @@
   }
   
   .header__login .subscribe {
-    color: #a7a7a7;
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
@@ -84,10 +90,19 @@
   .header__login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+  }
+  body:not(.dark-theme){
+    .header__login .subscribe {
+      color: var(--bg-4);
+    }
+    .header__login .login{
+      color: var(--text-color-2);
+      background-color: var(--bg-4);
+    }
   }
 
 
@@ -105,7 +120,7 @@
   }
   
   .artist-card {
-    background: #181818;
+    background: var(--bg-5);
     border-radius: 8px;
     -ms-flex: 1;
     flex: 1;
@@ -117,7 +132,7 @@
   }
   
   .artist-card:hover {
-    background-color: #252525;
+    background-color: var(bg-4);
   }
   
   .card-img {
@@ -139,7 +154,7 @@
   .card-text {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: var(--text-color-2);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -161,7 +176,7 @@
   }
   
   .artist-categorie {
-    color: #6a6a6a;
+    color: var(--text-color);
     font-weight: 400;
     font-size: 0.875rem;
   }
